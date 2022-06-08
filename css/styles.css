@@ -1,0 +1,210 @@
+:root{
+--accent-color: #2196F3;
+--main-text-color: #757575;
+--second-text-color: #212121;
+--white-color: #FFFFFF;
+--background-grey: #F5F4FA;
+--background-darkgrey: #2F303A;
+
+
+}
+
+/*------------Общие стили элементов-------*/
+body{
+    font-family: 'Roboto', sans-serif;   
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.second-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+
+    color: var(--second-text-color);
+}
+
+.link{
+    text-decoration: none;
+    font-style: normal ;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+    text-align: center;
+}
+
+/* -------------------------HEADER------------------------- */
+.header a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    
+    color: var(--main-text-color);
+}
+
+.header a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+.nav > a{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+
+    color: var(--second-text-color);
+}
+
+.logo-link>span{
+    color: var(--accent-color);
+}
+.nav> a:hover,
+a:focus {
+    color: var(--second-text-color);
+}
+
+.nav-list a {
+    color: var(--second-text-color);
+}
+
+.item.page-now a{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+/*-----------------------------ORDER------------------------*/
+
+.order{
+    background-color: var(--background-darkgrey);
+}
+.main-heading{
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--white-color);
+}
+
+.main-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
+}
+
+/*--------------------ADVANTAGES-----------------------*/
+.advantages>h2{
+    visibility: hidden;
+}
+
+.advantages h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    
+    color: var(--second-text-color);
+}
+
+/*-- -------------------whatdo-----------*/
+
+/*------------------------TEAM--------*/
+
+.team{
+    background-color: var(--background-grey);
+    
+}
+
+.third-heading{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    
+    color: var(--second-text-color);
+}
+
+.team p{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+}
+
+/*------------------------------------FOOTER-----------*/
+.footer{
+    background-color: var(--background-darkgrey);
+}
+.footer .logo-link{
+    color: var(--white-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+}
+
+.map{
+color: var(--white-color);
+}
+
+.footer-link {
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*!!!----------------------------PORTFOLIO------------!!!*/
+
+/*-- ---------------EXAMPLES------- -*/
+
+.examples h1{
+    visibility: hidden;
+}
+
+.examples .button{
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    background-color: var(--background-grey);
+
+}
+
+.examples .button:hover, .examples .button:focus{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/*----------------Карточки с работами-----------*/
+
+.examples h2{
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.examples-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    color: var(--main-text-color);
+}
