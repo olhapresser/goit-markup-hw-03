@@ -15,7 +15,8 @@
 
 <body>
     <!-- -------HEADER----------- -->
-    <header class="header">
+    <header class="header container">
+        <div class="header-container">
         <nav class="nav">
             <a href="/" lang="en" class="logo-link link"><span>Web</span>Studio</a>
             <ul class="list nav-list">
@@ -24,66 +25,87 @@
                 <li class="item"><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="list">
-            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <ul class="list data">
+            <li class="item contacts-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="item contacts-item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
 
     <main>
         <!-- ---------------EXAMPLES------- -->
-<section class="examples">
+<section class="section examples">
     <h1 class="main-heading">Примеры работ</h1>
         <ul class="list container">
-            <li class="item"><button type="button" class="button">Все</button></li>
-            <li class="item"><button type="button" class="button">Веб-сайты</button></li>
-            <li class="item"><button type="button" class="button">Приложения</button></li>
-            <li class="item"><button type="button" class="button">Дизайн</button></li>
-            <li class="item"><button type="button" class="button">Маркетинг</button></li>
+            <li class="item examples-item"><button type="button" class="button">Все</button></li>
+            <li class="item examples-item"><button type="button" class="button">Веб-сайты</button></li>
+            <li class="item examples-item"><button type="button" class="button">Приложения</button></li>
+            <li class="item examples-item"><button type="button" class="button">Дизайн</button></li>
+            <li class="item examples-item"><button type="button" class="button">Маркетинг</button></li>
         </ul>
 <!----------------Карточки с работами----------->
     <ul class="list container cards-list">
         <li class="item"> <a href="./" class="link"><img src="./images/portfolio1.jpg" alt="Технокряк" width="370">
-        <h2 class="second-heading">Технокряк</h2>
+        <div class="card-info">
+            <h2 class="second-heading">Технокряк</h2>
     <p class="examples-text text"> Веб-сайт </p>
+    </div>
     </a>
 </li>
            <li class="item"><a href="./" class="link"><img src="./images/portfolio2.jpg" alt="Постер" width="370">
-        <h2 class="second-heading">Постер New Orlean vs Golden Star</h2>
-        <p class="examples-text text">Дизайн</p> </a></li>
+        <div class="card-info"> 
+            <h2 class="second-heading">Постер New Orlean vs Golden Star</h2>
+        <p class="examples-text text">Дизайн</p> 
+    </div>
+    </a></li>
            <li class="item"> <a href="" class="link"><img src="./images/portfolio3.jpg" alt="Ресторан" width="370">
-        <h2 class="second-heading">Ресторан Seafood</h2>
+        <div class="card-info">
+            <h2 class="second-heading">Ресторан Seafood</h2>
         <p class="examples-text text">Приложение</p> 
+        </div>
     </a>
         </li>
            <li class="item"> <a href="./" class="link"><img src="./images/portfolio4.jpg" alt="Проект" width="370">
-        <h2 class="second-heading">Проект Prime</h2>
-        <p class="examples-text text">Маркетинг</p> </a>
+        <div class="card-info">
+            <h2 class="second-heading">Проект Prime</h2>
+        <p class="examples-text text">Маркетинг</p> 
+    </div>
+    </a>
         </li>
            <li class="item"> <a href="" class="link"><img src="./images/portfolio5.jpg" alt="Проект2" width="370">
-        <h2 class="second-heading">Проект Boxes</h2>
+        <div class="card-info">
+            <h2 class="second-heading">Проект Boxes</h2>
         <p class="examples-text text">Приложение</p>
+        </div>
         </a>
         </li>
            <li class="item"><a href="./" class="link"><img src="./images/portfolio6.jpg" alt="Веб-сайт" width="370">
-        <h2 class="second-heading" lang="en">Inspiration has no Borders</h2>
+        <div class="card-info">
+            <h2 class="second-heading" lang="en">Inspiration has no Borders</h2>
         <p class="examples-text text">Веб-сайт</p>
-        </a>
+    </div>
+    </a>
         </li>
            <li class="item"> <a href="./" class="link"><img src="./images/portfolio7.jpg" alt="Издание" width="370">
-        <h2 class="second-heading">Издание Limited Edition</h2>
+            <div class="card-info">
+            <h2 class="second-heading">Издание Limited Edition</h2>
         <p class="examples-text text">Дизайн</p>
-        </a>
+    </div>  
+    </a>
         </li>
            <li class="item"> <a href="./" class="link"><img src="./images/portfolio8.jpg" alt="Проект3" width="370">
-        <h2 class="second-heading">Проект LAB</h2>
+            <div class="card-info">
+            <h2 class="second-heading">Проект LAB</h2>
         <p class="examples-text text">Маркетинг</p>
-        </a>
+    </div>    
+    </a>
         </li>
            <li class="item"> <a href="./" class="link"><img src="./images/portfolio9.jpg" alt="Приложение" width="370">
-        <h2 class="second-heading">Growing Business</h2>
+                <div class="card-info">
+            <h2 class="second-heading">Growing Business</h2>
         <p class="examples-text text">Приложение</p>
-        </a>
+    </div>    
+    </a>
         </li>
        </ul>
             </section>
