@@ -32,6 +32,12 @@ li{
     padding: 0px;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;   
@@ -67,7 +73,7 @@ body{
     text-align: center;
 }
 .container{
-    margin: 0 auto;
+margin: 0 auto;
 width: 1200px;
 padding-right: 15px;
 padding-left: 15px;
@@ -201,6 +207,7 @@ text-align: center;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 
 /*--------------------ADVANTAGES-----------------------*/
@@ -264,15 +271,9 @@ text-align: center;
 }
 
 /*------------------------TEAM--------*/
-.team{
-    padding-top: 0;
-}
 
 .team .list-container{
     display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
@@ -281,14 +282,15 @@ text-align: center;
     
 }
 
+
 .team .second-heading{
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team .item{
+
+    background-color: var(--white-color);
     width: 270px;
-    height: 368px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -315,17 +317,19 @@ text-align: center;
     font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
+
+    margin-bottom: 30px;
 }
 
 .team .third-heading{
     margin: 30px 50px 10px;
+    text-align: center;
 }
 
 
 /*------------------------------------FOOTER-----------*/
 .footer{
     background-color: var(--background-darkgrey);
-    height: 252px;
 }
 .footer .logo-link{
     color: var(--white-color);
@@ -351,7 +355,7 @@ color: rgba(255, 255, 255, 0.6);
     margin-bottom: 0;
 }
 
-.footer .container{
+.footer{
    padding-top: 60px;
    padding-bottom: 60px;
 }
@@ -366,7 +370,6 @@ color: rgba(255, 255, 255, 0.6);
 .examples .container{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 .examples h1{
@@ -412,9 +415,6 @@ border-radius: 4px;
 
 /*----------------Карточки с работами-----------*/
 
-.examples .container{
-    flex-wrap: wrap;
-}
 
 .cards-list .item{
     width: 370px;
@@ -450,3 +450,16 @@ margin-bottom: 4px;
     line-height: calc(30/16);
     color: var(--main-text-color);
 }
+
+.examples-list{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
