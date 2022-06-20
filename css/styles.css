@@ -77,7 +77,6 @@ margin: 0 auto;
 width: 1200px;
 padding-right: 15px;
 padding-left: 15px;
-outline: 2px solid tomato;
 }
 
 .section{
@@ -370,6 +369,7 @@ color: rgba(255, 255, 255, 0.6);
 .examples .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .examples h1{
@@ -413,6 +413,10 @@ border-radius: 4px;
     background-color: var(--accent-color);
 }
 
+.examples-buttons{
+    display: inline-flex;
+}
+
 /*----------------Карточки с работами-----------*/
 
 
@@ -432,7 +436,7 @@ border-radius: 4px;
         margin-bottom: 0;}
 
         .card-info{
-           padding: 24px 20px;
+        padding: 24px 20px;
         }
 
 .examples .second-heading{
