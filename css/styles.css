@@ -417,7 +417,6 @@ border-radius: 4px;
 
 .cards-list .item{
     width: 370px;
-    border: 1px solid #EEEEEE;
 
     margin-right: 30px;
     margin-bottom: 30px;
@@ -432,6 +431,7 @@ border-radius: 4px;
 
         .card-info{
         padding: 24px 20px;
+        border: 1px solid #EEEEEE;
         }
 
 .examples .second-heading{
