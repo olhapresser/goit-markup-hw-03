@@ -231,6 +231,10 @@
     margin-left: 30px;
 }
 
+.advantages .text{
+    flex-basis: 270px;
+}
+
     .visually-hidden {
         position: absolute;
         width: 1px;
@@ -313,7 +317,7 @@
 
 
     .team .third-heading{
-        margin: 30px 50px 10px;
+        margin-bottom: 10px;
         text-align: center;
 
         font-weight: 500;
@@ -325,7 +329,6 @@
     }
     
     .team .text{
-        margin-bottom: 30px;
         
         font-weight: 400;
         font-size: 16px;
@@ -335,6 +338,11 @@
 
     .team .item{
         background-color: var(--white-color);
+    }
+
+    .team-name{
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 
