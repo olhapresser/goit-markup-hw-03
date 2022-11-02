@@ -95,10 +95,6 @@
         display: block;
         }
     
-    .header.link:hover,
-    .header.link:focus {
-        color: var(--accent-color);
-    }
     
     .logo-link{
         display: block;
@@ -125,8 +121,8 @@
         color: var(--second-text-color);
     }
 
-    .header .link:hover,
-    .header .link:focus {
+    .header .list .link:hover,
+    .header .list .link:focus {
         color: var(--accent-color);
     }
 
@@ -356,7 +352,7 @@
 
 
     .footer .item{
-        padding-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .footer .item:last-child{
@@ -369,7 +365,7 @@
         letter-spacing: 0.03em;
     }
 
-    .footer .link:hover, .footer .link:focus{
+    .footer .list .link:hover, .footer .list .link:focus{
         color: var(--accent-color);
     }
 
@@ -433,7 +429,7 @@ margin-bottom: 20px;
     
     /*----------------Карточки с работами-----------*/
     .cards-list .item{
-        width: 370px;
+        flex-basis: 370px;
     
         margin-right: 30px;
         margin-bottom: 30px;
@@ -448,7 +444,9 @@ margin-bottom: 20px;
     
             .card-info{
             padding: 24px 20px;
-            border: 1px solid #EEEEEE;
+            border-bottom: 1px solid #EEEEEE;
+            border-right: 1px solid #EEEEEE;
+            border-left: 1px solid #EEEEEE;
             }
    
    
